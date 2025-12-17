@@ -1,0 +1,29 @@
+body {
+    background-image: url('bg-task1.jpg');
+    background-size: cover;
+    position: fixed;
+    background-attachment: fixed; 
+    font-family: 'Poppins', sans-serif;
+}
+.para {
+    font-size: 27px;
+    text-align: center;
+    padding-top: 15px;
+    padding-left: 20px;
+}
+
+.Title{
+    font-size: 50px;
+    padding-left: 700px;
+    padding-top : 200px;
+}
+.get-started{
+    margin: 50px 790px;
+    background-color: #4D2F1A;
+    padding: 19px 10px;
+    color: white;
+    font-size: 15px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+}

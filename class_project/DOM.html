@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+</head>
+<body>
+    <!-- <div class="container">
+        <h1 id="heading">DOM Manipulation Example</h1>
+        <button id="btn">CLick me</button>
+        <script src="dom.js"> </script>
+    </div> -->
+<form id="form" class="p-6 border-2 border-gray-300 w-80 flex flex-col space-y-4">
+    <div class="flex fle-col">
+        <label for="name">Name</label>
+        <input class="border-2 px-2 py-1" type="text" id="name" name="name" placeholder="Enter Your Name">
+        <p id="error"></p>
+    </div>
+    <div class="flex flex-col">
+        <label for="password">Password</label>
+        <input class="border-2 px-2 py-1" type="password" id="password" name="password" placeholder="Enter Your Password">
+        <p id="password-error"></p>
+    </div>
+    <button id="submitBtn" class="bg-blue-300 px-4 py-2 rounded hover:bg-blue-400">Submit</button>
+</form>
+<script src="dom.js"></script>
+</body>
+</html>

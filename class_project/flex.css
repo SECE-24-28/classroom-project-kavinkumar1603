@@ -1,0 +1,24 @@
+.parent {
+    background-color: rgb(155, 36, 36);
+    padding: 1px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding: 20px;
+    align-items: baseline;
+}       
+
+.child {
+    padding: 25px;
+    margin: 5px;
+    background-color: rgb(223, 223, 19);
+    border: 1px solid black;
+    color: white;
+    font-size: 25px;
+    padding-right: 50px;
+}
+
+.long {
+    padding: 10px 80px 50px 80px;
+   
+}

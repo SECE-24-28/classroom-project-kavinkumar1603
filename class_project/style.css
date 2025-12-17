@@ -1,0 +1,44 @@
+/*Element Selector*/
+h1 {
+    color: yellowgreen;
+    text-align: center;
+}
+
+/*ID Selector*/
+#h1{
+    color:rgb(56, 81, 81);
+}
+
+/*Class Selector*/
+.h1{
+    color:coral;
+}
+
+/*Pseudo-class Selector*/
+/* Specificity [ 0 - 1 - 1] */
+h1:hover{
+    color :blue;
+}
+ 
+/* Specificity [ 0 - 0 - 0] => [id - class - element] */
+/*Parent Selector*/
+/* 0 - 1 - 1 (specificity) */
+.parent h1 {
+    color : brown;
+}
+/*  0 - 0 - 2 (specificity) */
+div h1 {
+    color : purple;
+}
+
+button {
+    background-color: rgb(93, 199, 213);
+    padding: 10px 20px;
+    font-size: 20px;
+    margin:10px;
+    border-radius:10px;
+}
+button:hover {
+    background-color: royalblue;
+    color: white;
+}

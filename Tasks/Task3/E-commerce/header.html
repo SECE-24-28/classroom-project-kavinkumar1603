@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+</head>
+<body class="h-screen overflow-hidden flex flex-col">
+    <header class="flex justify-between items-center px-8 py-4 bg-white shadow">
+        <h1 class="text-2xl font-bold">Pantaloon</h1>
+        <nav class="flex gap-8 text-gray-700">
+            <a href="men.html" class="hover:text-orange-600 hover:underline">MEN</a>
+            <a href="kids.html" class="hover:text-orange-600 hover:underline">KIDS</a>
+            <a href="hl.html" class="hover:text-orange-600 hover:underline">HOME & LIVING</a>
+            <a href="brand.html" class="hover:text-orange-600 hover:underline">BRANDS</a>
+            <a href="sale.html" class="hover:text-orange-600 hover:underline">SALE</a>
+        </nav>
+        <div class="flex items-center gap-4">
+            <a href="#" class="relative">
+                <img src="asset/cart.png" alt="Cart" class="w-8 h-8 hover:opacity-80 transition">
+                <span class="absolute -top-2 -right-2 bg-orange-600 text-white text-xs rounded-full w-5 h-5 flex items-center justify-center">3</span>
+            </a>
+            <button class="px-6 py-2 bg-orange-600 text-white rounded hover:bg-orange-700">Logout</button>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <div class="flex-1 mx-8 my-4 bg-[url('asset/HERO_BG1.jpg')] bg-cover bg-center bg-fixed bg-opacity-75 rounded-lg shadow-[0_4px_20px_rgba(0,0,0,0.8)] p-8 flex items-center justify-center">       
+        <!-- Content -->
+        <div class="text-center">
+            <h2 class="text-5xl font-bold text-white mb-6">Discover Your Style</h2>
+            <p class="text-lg text-white mb-8">
+                Explore our exclusive collection of premium dresses, suits, and casual wear. <br>
+                Find the perfect outfit for every occasion.
+            </p>
+            <button class="px-8 py-4 bg-orange-600 text-white text-lg rounded-lg hover:bg-orange-700 transition duration-300">
+                Shop Now
+            </button>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer class="bg-gray-800 text-white py-6 mt-8">
+        <div class="container mx-auto px-8 text-center">
+            <p class="mb-2">&copy; 2025 DressShop. All rights reserved.</p>
+            <div class="flex justify-center gap-6 text-sm">
+                <a href="#" class="hover:text-orange-600">About Us</a>
+                <a href="#" class="hover:text-orange-600">Contact</a>
+                <a href="#" class="hover:text-orange-600">Privacy Policy</a>
+                <a href="#" class="hover:text-orange-600">Terms & Conditions</a>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>

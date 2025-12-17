@@ -1,0 +1,63 @@
+body {
+    /* margin: 0; */
+    /* padding: 0; */
+    /* min-height: 100vh; */
+    /* width: 100vw; */
+    box-sizing: border-box;
+    background: url('kavin.jpg') ; 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+
+.content {
+   
+    /* z-index: 2; */
+    background: rgba(77, 71, 71, 0.8);
+    padding: 30px;
+    box-shadow: 0 4px 16px rgba(0,0,0,0.1);
+    width: 90%;
+    margin-top: 30px;
+    max-width: 700px;
+    border-radius: 20px;
+}
+
+.hobbies{
+    color : rgb(212, 207, 215);
+    font-weight: bold;
+}
+.submit{
+    background-color: rgb(241, 239, 243);
+    color : black;
+    font-weight: bold;
+    right: 10px;
+   
+}
+.heading{
+    text-align: center;
+    font-style: italic;
+    background-color: lightblue;
+}
+.about{
+    color :rgb(245, 243, 247);
+    font-weight: bold;
+}
+.profile{
+    color : rgb(236, 235, 238);
+    border-radius: 200px;
+}
+.prof-link{
+    color: black;
+}
+.description{
+    color : rgb(160, 143, 117);
+}
+.hobbies-list{
+    color : rgb(160 , 143 , 117);
+
+}
+img{
+    border-radius: 200px;
+    border-color: rgb(160 , 143 , 117);
+}

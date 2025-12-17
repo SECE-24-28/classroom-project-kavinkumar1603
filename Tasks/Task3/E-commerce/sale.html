@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sale - DressShop</title>
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+</head>
+<body class="bg-gray-50">
+    <header class="flex justify-between items-center px-8 py-4 bg-white shadow mb-8">
+        <h1 class="text-2xl font-bold">Pantaloon</h1>
+        <nav class="flex gap-8 text-gray-700">
+            <a href="men.html" class="hover:text-orange-600 hover:underline">MEN</a>
+            <a href="kids.html" class="hover:text-orange-600 hover:underline">KIDS</a>
+            <a href="hl.html" class="hover:text-orange-600 hover:underline">HOME & LIVING</a>
+            <a href="brand.html" class="hover:text-orange-600 hover:underline">BRANDS</a>
+            <a href="sale.html" class="hover:text-orange-600 hover:underline">SALE</a>
+        </nav>
+        <div class="flex items-center gap-4">
+            <a href="#" class="relative">
+                <img src="asset/cart.jpg" alt="Cart" class="w-8 h-8 hover:opacity-80 transition">
+                <span class="absolute -top-2 -right-2 bg-orange-600 text-white text-xs rounded-full w-5 h-5 flex items-center justify-center">3</span>
+            </a>
+            <button class="px-6 py-2 bg-orange-600 text-white rounded hover:bg-orange-700">Logout</button>
+        </div>
+    </header>
+
+    <!-- Sale Banner -->
+    <div class="container mx-auto px-8 mb-12">
+        <div class="bg-gradient-to-r from-orange-500 to-red-600 rounded-lg p-8 text-center text-white shadow-xl">
+            <h2 class="text-5xl font-bold mb-2">BIG SALE!</h2>
+            <p class="text-2xl">Up to 70% OFF on Selected Items</p>
+        </div>
+    </div>
+
+    <!-- Sale Products -->
+    <div class="container mx-auto px-8">
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+            
+            <!-- Product 1 - Men's Category -->
+            <div class="bg-white rounded-lg shadow-lg overflow-hidden hover:shadow-2xl transition duration-300">
+                <div class="relative">
+                    <img src="asset/ll1.webp" alt="Navy Blazer" class="w-full h-64 object-cover">
+                    <span class="absolute top-4 right-4 bg-red-600 text-white px-4 py-2 rounded-full font-bold text-lg">40% OFF</span>
+                </div>
+                <div class="p-6">
+                    <h3 class="text-2xl font-bold text-gray-800 mb-3">Premium Navy Blazer</h3>
+                    <p class="text-gray-600 mb-4 leading-relaxed">
+                        Elevate your professional wardrobe with this sophisticated navy blazer. Crafted from premium wool blend fabric, 
+                        it features a modern slim fit, notched lapels, and double-button closure. Perfect for business meetings, 
+                        formal events, or smart casual occasions. The blazer includes functional side pockets, inner chest pocket, 
+                        and comfortable lining for all-day wear.
+                    </p>
+                    <div class="mb-4">
+                        <span class="text-sm text-gray-600 block mb-1">Features:</span>
+                        <ul class="text-sm text-gray-600 list-disc list-inside">
+                            <li>100% Wool Blend Fabric</li>
+                            <li>Dry Clean Only</li>
+                            <li>Available in S, M, L, XL, XXL</li>
+                            <li>Modern Slim Fit Design</li>
+                        </ul>
+                    </div>
+                    <div class="flex items-center justify-between mb-4">
+                        <div>
+                            <span class="text-3xl font-bold text-orange-600">₹1,799</span>
+                            <span class="text-lg text-gray-500 line-through ml-2">₹2,999</span>
+                        </div>
+                        <span class="text-green-600 font-semibold">Save ₹1,200</span>
+                    </div>
+                    <button class="w-full bg-orange-600 text-white py-3 rounded-lg text-lg font-medium hover:bg-orange-700 transition duration-300">
+                        Add to Cart
+                    </button>
+                </div>
+            </div>
+
+            <!-- Product 2 - Kids Category -->
+            <div class="bg-white rounded-lg shadow-lg overflow-hidden hover:shadow-2xl transition duration-300">
+                <div class="relative">
+                    <img src="asset/ki1.jpg" alt="Kids Vest Set" class="w-full h-64 object-cover">
+                    <span class="absolute top-4 right-4 bg-red-600 text-white px-4 py-2 rounded-full font-bold text-lg">50% OFF</span>
+                </div>
+                <div class="p-6">
+                    <h3 class="text-2xl font-bold text-gray-800 mb-3">Kids Formal Vest Set</h3>
+                    <p class="text-gray-600 mb-4 leading-relaxed">
+                        Make your little gentleman stand out with this adorable teal vest and pants combination. 
+                        This premium set features a stylish waistcoat with decorative pocket details and matching formal pants. 
+                        Made from comfortable, breathable fabric that's perfect for parties, weddings, or special occasions. 
+                        The set includes adjustable waist for growing kids and easy-care material that maintains its shape and color.
+                    </p>
+                    <div class="mb-4">
+                        <span class="text-sm text-gray-600 block mb-1">Features:</span>
+                        <ul class="text-sm text-gray-600 list-disc list-inside">
+                            <li>Premium Cotton Blend</li>
+                            <li>Machine Washable</li>
+                            <li>Ages 2-10 Years</li>
+                            <li>Includes Vest & Pants</li>
+                        </ul>
+                    </div>
+                    <div class="flex items-center justify-between mb-4">
+                        <div>
+                            <span class="text-3xl font-bold text-orange-600">₹649</span>
+                            <span class="text-lg text-gray-500 line-through ml-2">₹1,299</span>
+                        </div>
+                        <span class="text-green-600 font-semibold">Save ₹650</span>
+                    </div>
+                    <button class="w-full bg-orange-600 text-white py-3 rounded-lg text-lg font-medium hover:bg-orange-700 transition duration-300">
+                        Add to Cart
+                    </button>
+                </div>
+            </div>
+
+            <!-- Product 3 - Home & Living Category -->
+            <div class="bg-white rounded-lg shadow-lg overflow-hidden hover:shadow-2xl transition duration-300">
+                <div class="relative">
+                    <img src="asset/ll1.webp" alt="Bedding Set" class="w-full h-64 object-cover">
+                    <span class="absolute top-4 right-4 bg-red-600 text-white px-4 py-2 rounded-full font-bold text-lg">60% OFF</span>
+                </div>
+                <div class="p-6">
+                    <h3 class="text-2xl font-bold text-gray-800 mb-3">Luxury Bedding Set</h3>
+                    <p class="text-gray-600 mb-4 leading-relaxed">
+                        Transform your bedroom into a luxury retreat with this premium 6-piece bedding set. 
+                        Crafted from 100% Egyptian cotton with 400 thread count, this set includes 1 fitted sheet, 
+                        1 flat sheet, 2 pillowcases, and 2 decorative cushion covers. The fabric is incredibly soft, 
+                        breathable, and gets even softer with each wash. Available in elegant colors to match any bedroom decor.
+                    </p>
+                    <div class="mb-4">
+                        <span class="text-sm text-gray-600 block mb-1">Features:</span>
+                        <ul class="text-sm text-gray-600 list-disc list-inside">
+                            <li>100% Egyptian Cotton</li>
+                            <li>400 Thread Count</li>
+                            <li>6-Piece Complete Set</li>
+                            <li>King & Queen Size Available</li>
+                        </ul>
+                    </div>
+                    <div class="flex items-center justify-between mb-4">
+                        <div>
+                            <span class="text-3xl font-bold text-orange-600">₹999</span>
+                            <span class="text-lg text-gray-500 line-through ml-2">₹2,499</span>
+                        </div>
+                        <span class="text-green-600 font-semibold">Save ₹1,500</span>
+                    </div>
+                    <button class="w-full bg-orange-600 text-white py-3 rounded-lg text-lg font-medium hover:bg-orange-700 transition duration-300">
+                        Add to Cart
+                    </button>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer class="bg-gray-800 text-white py-6 mt-8">
+        <div class="container mx-auto px-8 text-center">
+            <p class="mb-2">&copy; 2025 DressShop. All rights reserved.</p>
+            <div class="flex justify-center gap-6 text-sm">
+                <a href="#" class="hover:text-orange-600">About Us</a>
+                <a href="#" class="hover:text-orange-600">Contact</a>
+                <a href="#" class="hover:text-orange-600">Privacy Policy</a>
+                <a href="#" class="hover:text-orange-600">Terms & Conditions</a>
+            </div>
+        </div>
+    </footer>
+    
+</body>
+</html>

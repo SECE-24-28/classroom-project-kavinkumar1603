@@ -1,0 +1,37 @@
+.btn {
+    background: brown;
+    color:white;
+    transition: all 1s;
+    margin-top: 100px;
+    margin-left: 100px;
+    padding: 30px 30px;
+    border-radius: 1px;
+    animation: heartbeat 1s infinite;
+    font-size: 100px;
+}
+
+.btn:hover {
+    background: rgb(189, 207, 54);
+    transform: scale(1.1);
+    animation: bounce 1s infinite;
+}
+
+@keyframes bounce{
+    0% {
+        transform: translateY(0);
+    }
+    20%{
+        transform:scaleY(-100px);
+    }
+    100% {
+        transform: translateY(0);
+    }
+}
+
+@keyframes heartbeat {
+  0%   {background-color:red; left:0px; top:0px;}
+  25%  {background-color:yellow; left:200px; top:0px;}
+  50%  {background-color:blue; left:200px; top:200px;}
+  75%  {background-color:green; left:0px; top:200px;}
+  100% {background-color:red; left:0px; top:0px;}
+}
